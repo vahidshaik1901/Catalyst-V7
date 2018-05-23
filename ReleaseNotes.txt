@@ -1,0 +1,11 @@
+Release notes 3.0
+
+- upload to github
+- added change for files
+
+Release notes 3.0.1
+
+- added emmision speed factor
+- change zawy index
+- zawy fixed
+- remove bug payment gate service

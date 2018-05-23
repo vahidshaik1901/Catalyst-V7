@@ -1,0 +1,26 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/root/coins/catav3/external/miniupnpc/minixml.c
+string.h
+-
+minixml.h
+/root/coins/catav3/external/miniupnpc/minixml.h
+
+/root/coins/catav3/external/miniupnpc/minixml.h
+
+/root/coins/catav3/external/miniupnpc/minixmlvalid.c
+stdlib.h
+-
+stdio.h
+-
+string.h
+-
+minixml.h
+/root/coins/catav3/external/miniupnpc/minixml.h
+
