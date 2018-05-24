@@ -127,7 +127,7 @@ const uint64_t MAX_BLOCK_REWARD                              = (UINT64_C(10) * p
 const uint64_t REWARD_INCREASE_INTERVAL                      = (UINT64_C(264000));
 
 const char     CRYPTONOTE_NAME[]                             = "Catalyst";
-const char     GENESIS_COINBASE_TX_HEX[]                     = "010a01ff0001ecf104029b2e4c0281c0b02e7c53291a94d1d0cbff8883f8024f5142ee494ffbbd08807121013f6f4df43b6214c423b01af8cae98d88ad9fae89758aff17c1adada18b7b95da";
+const char     GENESIS_COINBASE_TX_HEX[]                     = "010a01ff0001ecf104029b2e4c0281c0b02e7c53291a94d1d0cbff8883f8024f5142ee494ffbbd08807121019e254c1c433b69adfa07987381e342c630af656af0e24ced92f99500843d5ec8";
 const uint32_t GENESIS_NONCE                                 = 70;
 const uint64_t GENESIS_TIMESTAMP                             = 1526949013;
 
