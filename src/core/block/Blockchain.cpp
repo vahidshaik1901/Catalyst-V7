@@ -313,7 +313,7 @@ Blockchain::Blockchain(const Currency& currency, tx_memory_pool& tx_pool, ILogge
   m_current_block_cumul_sz_limit(0),
   m_is_in_checkpoint_zone(false),
   m_checkpoints(logger),
-  m_upgradeDetector(currency, m_blocks, BLOCK_MAJOR_VERSION_2, logger) {
+  m_upgradeDetector(currency, m_blocks, BLOCK_MAJOR_VERSION_4, logger) {
 
   m_outputs.set_deleted_key(0);
   m_multisignatureOutputs.set_deleted_key(0);
