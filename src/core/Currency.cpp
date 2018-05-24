@@ -127,9 +127,9 @@ bool Currency::generateGenesisBlock() {
 }
 
 size_t Currency::difficultyWindowByBlockVersion(uint8_t blockMajorVersion) const {
-  if (blockMajorVersion >= BLOCK_MAJOR_VERSION_1) {
+  if (blockMajorVersion >= BLOCK_MAJOR_VERSION_4) {
     return m_difficultyWindow;
-  } else if (blockMajorVersion == BLOCK_MAJOR_VERSION_4) {
+  } else if (blockMajorVersion == BLOCK_MAJOR_VERSION_1) {
     return parameters::DIFFICULTY_WINDOW_V2;
   } else {
     return parameters::DIFFICULTY_WINDOW_V1;
@@ -137,9 +137,9 @@ size_t Currency::difficultyWindowByBlockVersion(uint8_t blockMajorVersion) const
 }
 
 size_t Currency::difficultyCutByBlockVersion(uint8_t blockMajorVersion) const {
-  if (blockMajorVersion >= BLOCK_MAJOR_VERSION_1) {
+  if (blockMajorVersion >= BLOCK_MAJOR_VERSION_4) {
     return m_difficultyCut;
-  } else if (blockMajorVersion == BLOCK_MAJOR_VERSION_4) {
+  } else if (blockMajorVersion == BLOCK_MAJOR_VERSION_1) {
     return parameters::DIFFICULTY_CUT_V2;
   } else {
     return parameters::DIFFICULTY_CUT_V1;

@@ -345,7 +345,7 @@ bool core::get_block_template(Block& b, const AccountPublicAddress& adr, difficu
 
     if (BLOCK_MAJOR_VERSION_1 == b.majorVersion) {
       b.minorVersion = BLOCK_MINOR_VERSION_1;
-    } else if (BLOCK_MAJOR_VERSION_4 == b.majorVersion) {
+    } else if (BLOCK_MAJOR_VERSION_2 == b.majorVersion) {
       b.minorVersion = BLOCK_MINOR_VERSION_0;
     }
 
